@@ -1,0 +1,103 @@
+body{
+
+    background-color: aqua;
+
+}
+
+.box{
+    margin: auto;
+    margin-top: 15%;
+    background-color: white;
+    width: 320px;
+    height: 420px;
+    border: 1px solid black;
+
+}
+
+h1{
+    margin-left: 80px;
+    margin-top: 40px;
+    color: rgb(6, 105, 105);
+}
+
+.button-1 {
+  margin-left: 115px;
+  margin-top: 30px;
+  background-color: #4cd2ea;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #82b2f0;
+}
+
+.inputType{
+    width: 200px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.checkBox{
+  margin-left: 30px; 
+  margin-top: 15px;
+  height: 15px;
+  width: 15px;
+  
+}
+
+.overlay:target .popup{
+  animation: popup 0.7s;
+}
+
+@keyframes popup {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.4);
+  }
+  60%{
+    transform: scale(1.1);
+  }
+  70%{
+    transform: scale(1.2);
+  }
+  80%{
+    transform: scale(1);
+  }
+  90%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
