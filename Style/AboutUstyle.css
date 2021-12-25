@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.headeri{
+  background-color: white;
+  margin-top: 0;
+  height: 70px;
+  width: 1663px;
+
+}
+
+.styleh2{
+  color: black;
+  float: right;
+  margin-left: 40px;
+  margin-right: 25px;
+  
+
+}
+
+.logo{
+  width: 100px;
+  height: 70px;
+  margin-right: 100px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  height: 180px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(59, 99, 99);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+.title {
+  color: grey;
+}
+
+img{
+  width:300px;
+  height: 400px;
+}
