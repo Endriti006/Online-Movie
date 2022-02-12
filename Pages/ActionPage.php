@@ -59,16 +59,16 @@ session_start();
 
         <div class="body-content-box">
             <div class="body-content">
-                <h1 class="latest">Latest Movies</h1>
-                <a href="ActionPage.html"><p>Action</p></a>
-                <a href="HorrorPage.html"><p>Horror</p></a>
+                <h1 class="latest">Action Page</h1>
+                <a href="ActionPage.php"><p>Action</p></a>
+                <a href="HorrorPage.php"><p>Horror</p></a>
                 <p>Comedy</p>
                 <p>Drama</p>
-                <a href="SeriesPage.html"><p>Series</p></a>
+                <a href="SeriesPage.php"><p>Series</p></a>
             </div>
         </div>
         <div class="pic-box">
-<a href="Filmat.html">
+<a href="Filmat.php">
     <div class="pics">
         <div class="four">
             <div class="four-pic">
@@ -204,7 +204,7 @@ session_start();
 
 <h1 align="center" style="margin-top: 50px;">Top 3 Most Watched Movies Last Month</h1>
 
-<a href="Filmat.html">
+<a href="Filmat.php">
 <div class="slideshow-container">
 
     <div class="mySlides fade">

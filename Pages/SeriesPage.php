@@ -58,7 +58,7 @@ session_start();
 
         <div class="body-content-box">
             <div class="body-content">
-                <h1 class="latest">Latest Series</h1>
+                <h1 class="latest">Series</h1>
                 <a href="ActionPage.php"><p>Action</p></a>
                 <a href="HorrorPage.php"><p>Horror</p></a>
                 <p>Comedy</p>

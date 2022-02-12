@@ -231,7 +231,7 @@ h3:hover{
 
 
 <header>
-        <a class="logo-box" href="Home Page.html">
+        <a class="logo-box" href="Home Page.php">
             <img src="Img/logo.png" class="logo">
             <h1>Filma-tix</h1>
         </a>

@@ -72,10 +72,10 @@
         <form action="" method="post"> 
             <h1 class="h1R" style="margin-left:110px">LOGIN</h1>
 
-            <input class="inputAcc" type="text" name="username" id="username" placeholder="Enter a Username!" required><br>
+            <input class="inputAcc" style="margin-left: 15%;" type="text" name="username" id="username" placeholder="Enter a Username!" required><br>
             <label for="username" id="usernameMessage"></label><br>
 
-            <input class="inputAcc" type="password" name="password" id="password" placeholder="Enter a Password" required><br>
+            <input class="inputAcc" style="margin-left: 15%;" type="password" name="password" id="password" placeholder="Enter a Password" required><br>
             <label for="password" id="passwordMessage"></label><br>
 
             <button style="margin-left:120px;"class="button-1" role="button" id="register" value = "Login">Login</button>
